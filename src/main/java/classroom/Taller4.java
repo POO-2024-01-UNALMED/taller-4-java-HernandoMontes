@@ -11,6 +11,7 @@ public class Taller4 {
         Asignatura asignatura1 = new Asignatura("Calculo",Tipo.FUNDAMENTACION);
         Grupo grupo1 = new Grupo(estudiantes1, profesor1, asignatura1, 10023, "M J 2-4");
 
+
         Persona profesor2 = new Persona(99212, "Andrea");
         Asignatura asignatura2 = new Asignatura(882,Tipo.DISCIPLINAR);
         asignatura2.setCodigoInterno(98);
@@ -29,3 +30,4 @@ public class Taller4 {
         System.out.println(new Persona("Alejandro").cedula);
     }
 }
+
